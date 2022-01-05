@@ -656,6 +656,7 @@ section {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  border: 0.1rem solid #ff0000;
 }
 
 .products .box-container .box .image h3 {
