@@ -706,6 +706,10 @@ section {
   text-align: center;
 }
 
+.contact {
+  background-color: rgb(27, 27, 27);
+}
+
 .contact .icons-container {
   margin-bottom: 3rem;
   display: -ms-grid;
@@ -719,7 +723,7 @@ section {
   text-align: center;
   padding: 3rem 2rem;
   border: 0.1rem solid #ff0000;
-  background: #f0fdfa;
+  background: #444;
 }
 
 .contact .icons-container .icons i {
@@ -736,14 +740,14 @@ section {
 .contact .icons-container .icons h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: #444;
+  color: rgb(255, 255, 255);
   padding: 0.5rem 0;
 }
 
 .contact .icons-container .icons p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: rgb(255, 255, 255);
 }
 
 .contact .row {
@@ -779,7 +783,7 @@ section {
 .contact .row form h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: #444;
+  color: rgb(255, 255, 255);
   padding-bottom: 1rem;
 }
 
@@ -817,6 +821,10 @@ section {
   resize: none;
 }
 
+.faq {
+  background-color: rgb(27, 27, 27);
+}
+
 .faq .accordion-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -834,6 +842,7 @@ section {
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
   border: 0.1rem solid #ff0000;
+  background: #444;
 }
 
 .faq .accordion-container .accordion.active .accordion-heading {
@@ -872,7 +881,7 @@ section {
 .faq .accordion-container .accordion .accordion-heading h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 .faq .accordion-container .accordion .accordion-heading i {
@@ -884,13 +893,14 @@ section {
   padding: 1.5rem;
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: rgb(255, 255, 255);
   border-top: 0.1rem solid #ff0000;
   display: none;
 }
 
 .logo-container {
   text-align: center;
+  background-color: rgb(27, 27, 27);
 }
 
 .logo-container img {
